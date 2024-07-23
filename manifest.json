@@ -1,0 +1,15 @@
+{
+    "name": "Hyperverge",
+    "version": "1.0.0",
+    "description": "Notice Board",
+    "manifest_version": 3,
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "author": "Aryan Jolly",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Notice Board"
+    },
+    "permissions": ["storage"]
+}
